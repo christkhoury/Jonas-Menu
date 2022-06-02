@@ -49,21 +49,38 @@ img {
   margin: 0 auto;
   margin-top: -15px;
   margin-bottom: 25px;
+
 }
 .item p {
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 5px;
+
 }
 .flavor,
 .dessert {
   text-align: left;
   width: 74%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .price {
   text-align: right;
   width: 24%;
+  line-break: normal;
+  
 }
+.division{
+  text-align: right;
+  width:24%   ;
+ line-break: normal;
+}
+.extras{
+  display: block;
+font-size:smaller;
+font-weight: 50;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
 #bottom-line {
   margin-top: 20px;
 }
